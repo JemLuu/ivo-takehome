@@ -6,6 +6,7 @@ import React, { useEffect, useState } from 'react';
 import type { BlockNode } from '../types/ContractTypes';
 import { useContractContext } from '../context/useContractContext';
 import { NodeRenderer } from './NodeRenderer';
+import { contractTheme } from '../styles/contractTheme';
 
 interface ClauseRendererProps {
   node: BlockNode;
@@ -38,8 +39,8 @@ export const ClauseRenderer: React.FC<ClauseRendererProps> = ({ node, inheritedM
   };
 
   const clauseStyle: React.CSSProperties = {
-    marginBottom: '16px',
-    marginTop: '16px',
+    marginBottom: contractTheme.clause.marginBottom,
+    marginTop: contractTheme.clause.marginTop,
     display: 'block',
   };
 
@@ -49,9 +50,9 @@ export const ClauseRenderer: React.FC<ClauseRendererProps> = ({ node, inheritedM
 
   const numberStyle: React.CSSProperties = {
     display: 'inline-block',
-    marginRight: '8px',
+    marginRight: contractTheme.clause.numberSpacing,
     fontWeight: 'normal',
-    minWidth: '20px',
+    minWidth: contractTheme.clause.numberMinWidth,
   };
 
   // Check if this is a sub-clause in definitions section
@@ -69,9 +70,16 @@ export const ClauseRenderer: React.FC<ClauseRendererProps> = ({ node, inheritedM
   if (isNested && isDefinitionSubClause && subItemIndex !== undefined) {
     const letter = String.fromCharCode(97 + subItemIndex); // a, b, c, etc.
     return (
-      <div style={{ marginLeft: '20px', marginBottom: '4px', marginTop: '4px' }}>
+      <div style={{
+        marginLeft: contractTheme.clause.subClause.indent,
+        marginBottom: contractTheme.clause.subClause.marginBottom,
+        marginTop: contractTheme.clause.subClause.marginTop
+      }}>
         <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-          <span style={{ marginRight: '0px', minWidth: '30px' }}>({letter})</span>
+          <span style={{
+            marginRight: contractTheme.clause.subClause.labelSpacing,
+            minWidth: contractTheme.clause.subClause.labelMinWidth
+          }}>({letter})</span>
           <div style={{ flex: 1 }}>
             {node.children && node.children.map((child, index) => (
               <NodeRenderer key={index} node={child} inheritedMarks={marks} parentType="clause" isNested={true} />

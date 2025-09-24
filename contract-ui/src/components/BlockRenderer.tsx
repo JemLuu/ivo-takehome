@@ -6,6 +6,7 @@ import React from 'react';
 import type { BlockNode, TextNode } from '../types/ContractTypes';
 import { NodeRenderer } from './NodeRenderer';
 import { TextRenderer } from './TextRenderer';
+import { contractTheme, getTypography } from '../styles/contractTheme';
 
 interface BlockRendererProps {
   node: BlockNode;
@@ -59,33 +60,22 @@ export const BlockRenderer: React.FC<BlockRendererProps> = ({ node, inheritedMar
 
   switch (node.type) {
     case 'h1':
-      return <h1 style={{ ...elementStyle, fontSize: '36px', marginBottom: '24px', marginTop: '0px', color: '#2c3e50', fontWeight: '700' }}>{renderChildren()}</h1>;
+      return <h1 style={{ ...elementStyle, ...getTypography('h1') }}>{renderChildren()}</h1>;
 
     case 'h2':
-      return <h2 style={{ ...elementStyle, fontSize: '28px', marginBottom: '16px', marginTop: '16px', color: '#2c3e50' }}>{renderChildren()}</h2>;
+      return <h2 style={{ ...elementStyle, ...getTypography('h2') }}>{renderChildren()}</h2>;
 
     case 'h3':
-      return <h3 style={{ ...elementStyle, fontSize: '24px', marginBottom: '14px', marginTop: '14px', color: '#2c3e50' }}>{renderChildren()}</h3>;
+      return <h3 style={{ ...elementStyle, ...getTypography('h3') }}>{renderChildren()}</h3>;
 
     case 'h4':
-      return (
-        <h4 style={{
-          ...elementStyle,
-          fontSize: '18px',
-          marginBottom: '8px',
-          marginTop: '0px',
-          color: '#2c3e50',
-          display: 'inline-block'
-        }}>
-          {renderChildren()}
-        </h4>
-      );
+      return <h4 style={{ ...elementStyle, ...getTypography('h4') }}>{renderChildren()}</h4>;
 
     case 'h5':
-      return <h5 style={{ ...elementStyle, fontSize: '16px', marginBottom: '10px', marginTop: '10px', color: '#2c3e50' }}>{renderChildren()}</h5>;
+      return <h5 style={{ ...elementStyle, ...getTypography('h5') }}>{renderChildren()}</h5>;
 
     case 'h6':
-      return <h6 style={{ ...elementStyle, fontSize: '14px', marginBottom: '8px', marginTop: '8px', color: '#2c3e50' }}>{renderChildren()}</h6>;
+      return <h6 style={{ ...elementStyle, ...getTypography('h6') }}>{renderChildren()}</h6>;
 
     case 'p': {
       // Check if this p element contains block-level children (which would be invalid HTML)
@@ -96,26 +86,26 @@ export const BlockRenderer: React.FC<BlockRendererProps> = ({ node, inheritedMar
 
       // If it has block children, render as div instead of p to avoid invalid nesting
       if (hasBlockChildren) {
-        return <div style={{ ...elementStyle, marginBottom: '12px', lineHeight: '1.6' }}>{renderChildren()}</div>;
+        return <div style={{ ...elementStyle, ...contractTheme.typography.longParagraph }}>{renderChildren()}</div>;
       }
-      return <p style={{ ...elementStyle, marginBottom: '8px', lineHeight: '1.6', whiteSpace: 'pre-line' }}>{renderChildren()}</p>;
+      return <p style={{ ...elementStyle, ...contractTheme.typography.paragraph, whiteSpace: 'pre-line' }}>{renderChildren()}</p>;
     }
 
     case 'ul':
-      return <ul style={{ ...elementStyle, marginBottom: '8px', marginTop: '4px', paddingLeft: '40px', listStyleType: 'disc' }}>{renderChildren()}</ul>;
+      return <ul style={{ ...elementStyle, ...contractTheme.lists.ul }}>{renderChildren()}</ul>;
 
     case 'ol':
-      return <ol style={{ ...elementStyle, marginBottom: '16px', paddingLeft: '40px' }}>{renderChildren()}</ol>;
+      return <ol style={{ ...elementStyle, ...contractTheme.lists.ol }}>{renderChildren()}</ol>;
 
     case 'li':
-      return <li style={{ ...elementStyle, marginBottom: '4px', lineHeight: '1.6' }}>{renderChildren()}</li>;
+      return <li style={{ ...elementStyle, ...contractTheme.lists.li }}>{renderChildren()}</li>;
 
     case 'lic':
       // 'lic' seems to be list item content - render as span
       return <span style={elementStyle}>{renderChildren()}</span>;
 
     case 'block':
-      return <div style={{ ...elementStyle, marginBottom: '16px' }}>{renderChildren()}</div>;
+      return <div style={{ ...elementStyle, marginBottom: contractTheme.spacing.lg }}>{renderChildren()}</div>;
 
     default:
       return <div style={elementStyle}>{renderChildren()}</div>;

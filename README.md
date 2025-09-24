@@ -14,3 +14,5 @@ Jeremy Luu
 
 ## Extending the code
 
+• New block types can be added to BlockRenderer switch statement
+• New node types require updates to ContractTypes.ts and NodeRenderer

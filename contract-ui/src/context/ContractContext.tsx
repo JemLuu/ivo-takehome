@@ -3,7 +3,7 @@
  */
 
 import React, { useState, useRef, type ReactNode } from 'react';
-import { ContractContext } from './contractContext';
+import { ContractContext } from './contractContext.ts';
 
 interface ContractProviderProps {
   children: ReactNode;

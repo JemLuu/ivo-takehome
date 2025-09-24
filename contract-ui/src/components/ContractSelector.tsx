@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { contractTheme } from '../styles/contractTheme';
 
 interface ContractOption {
   id: string;
@@ -55,34 +56,34 @@ export const ContractSelector: React.FC<ContractSelectorProps> = ({
     }}>
       <div style={{
         position: 'relative',
-        minWidth: '250px'
+        minWidth: contractTheme.selector.minWidth
       }}>
         <button
           onClick={() => setIsOpen(!isOpen)}
           style={{
             width: '100%',
-            padding: '12px 16px',
-            backgroundColor: '#fff',
-            border: '2px solid #e1e5e9',
-            borderRadius: '8px',
-            fontSize: '14px',
+            padding: contractTheme.selector.padding,
+            backgroundColor: contractTheme.colors.background,
+            border: contractTheme.selector.border,
+            borderRadius: contractTheme.selector.borderRadius,
+            fontSize: contractTheme.selector.fontSize,
             fontWeight: '500',
-            color: '#2c3e50',
+            color: contractTheme.colors.primary,
             cursor: 'pointer',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
-            boxShadow: '0 2px 4px rgba(0, 0, 0, 0.1)',
+            boxShadow: contractTheme.selector.boxShadow,
             transition: 'all 0.2s ease',
             outline: 'none'
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.borderColor = '#3498db';
-            e.currentTarget.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.15)';
+            e.currentTarget.style.borderColor = contractTheme.selector.hoverBorder;
+            e.currentTarget.style.boxShadow = contractTheme.selector.hoverBoxShadow;
           }}
           onMouseLeave={(e) => {
-            e.currentTarget.style.borderColor = '#e1e5e9';
-            e.currentTarget.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.1)';
+            e.currentTarget.style.borderColor = contractTheme.colors.border;
+            e.currentTarget.style.boxShadow = contractTheme.selector.boxShadow;
           }}
         >
           <span>{getCurrentContractName()}</span>
@@ -101,11 +102,11 @@ export const ContractSelector: React.FC<ContractSelectorProps> = ({
             top: '100%',
             left: 0,
             right: 0,
-            backgroundColor: '#fff',
-            border: '2px solid #e1e5e9',
-            borderRadius: '8px',
-            marginTop: '4px',
-            boxShadow: '0 8px 16px rgba(0, 0, 0, 0.15)',
+            backgroundColor: contractTheme.colors.background,
+            border: contractTheme.selector.border,
+            borderRadius: contractTheme.selector.borderRadius,
+            marginTop: contractTheme.spacing.xs,
+            boxShadow: contractTheme.selector.hoverBoxShadow,
             overflow: 'hidden',
             zIndex: 1001
           }}>
@@ -115,25 +116,25 @@ export const ContractSelector: React.FC<ContractSelectorProps> = ({
                 onClick={() => handleOptionClick(option)}
                 style={{
                   width: '100%',
-                  padding: '12px 16px',
-                  backgroundColor: option.file === currentContract ? '#f8f9fa' : '#fff',
+                  padding: contractTheme.selector.padding,
+                  backgroundColor: option.file === currentContract ? contractTheme.colors.lightBackground : contractTheme.colors.background,
                   border: 'none',
                   textAlign: 'left',
-                  fontSize: '14px',
-                  color: '#2c3e50',
+                  fontSize: contractTheme.selector.fontSize,
+                  color: contractTheme.colors.primary,
                   cursor: 'pointer',
                   transition: 'background-color 0.15s ease',
-                  borderBottom: '1px solid #f1f3f4',
+                  borderBottom: `1px solid ${contractTheme.colors.border}`,
                   outline: 'none'
                 }}
                 onMouseEnter={(e) => {
                   if (option.file !== currentContract) {
-                    e.currentTarget.style.backgroundColor = '#f8f9fa';
+                    e.currentTarget.style.backgroundColor = contractTheme.colors.lightBackground;
                   }
                 }}
                 onMouseLeave={(e) => {
                   if (option.file !== currentContract) {
-                    e.currentTarget.style.backgroundColor = '#fff';
+                    e.currentTarget.style.backgroundColor = contractTheme.colors.background;
                   }
                 }}
               >
@@ -141,7 +142,7 @@ export const ContractSelector: React.FC<ContractSelectorProps> = ({
                 {option.file === currentContract && (
                   <span style={{
                     float: 'right',
-                    color: '#3498db',
+                    color: contractTheme.colors.hoverBorder,
                     fontWeight: '600'
                   }}>
                     ✓

@@ -6,6 +6,7 @@ import React from 'react';
 import type { MentionNode } from '../types/ContractTypes';
 import { useContractContext } from '../context/useContractContext';
 import { NodeRenderer } from './NodeRenderer';
+import { contractTheme } from '../styles/contractTheme';
 
 interface MentionRendererProps {
   node: MentionNode;
@@ -32,9 +33,9 @@ export const MentionRenderer: React.FC<MentionRendererProps> = ({ node, inherite
   const mentionStyle: React.CSSProperties = {
     backgroundColor: node.color || 'rgb(20, 170, 245)',
     color: 'white',
-    padding: '2px 6px',
-    borderRadius: '4px',
-    display: 'inline',
+    padding: contractTheme.mention.padding,
+    borderRadius: contractTheme.mention.borderRadius,
+    display: contractTheme.mention.display,
     fontWeight: marks.bold ? 'bold' : 'normal',
     fontStyle: marks.italic ? 'italic' : 'normal',
     textDecoration: marks.underline ? 'underline' : 'none',

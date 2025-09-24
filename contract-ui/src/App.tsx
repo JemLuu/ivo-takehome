@@ -4,10 +4,11 @@
  */
 
 import React, { useState, useEffect } from 'react';
-import { ContractProvider } from './context/ContractContext';
+import { ContractProvider } from './context/ContractContext.tsx';
 import { ContractRenderer } from './components/ContractRenderer';
 import { ContractSelector } from './components/ContractSelector';
 import type { ContractData } from './types/ContractTypes';
+import { contractTheme } from './styles/contractTheme';
 import './App.css';
 
 const App: React.FC = () => {
@@ -40,9 +41,9 @@ const App: React.FC = () => {
 
   const appStyle: React.CSSProperties = {
     minHeight: '100vh',
-    backgroundColor: '#ffffff',
-    padding: '20px',
-    paddingTop: '80px', // Add space for the fixed selector
+    backgroundColor: contractTheme.colors.background,
+    padding: contractTheme.layout.appPadding,
+    paddingTop: contractTheme.layout.appPaddingTop,
   };
 
   if (loading) {
@@ -53,7 +54,7 @@ const App: React.FC = () => {
         alignItems: 'center',
         justifyContent: 'center',
         fontSize: '18px',
-        color: '#666'
+        color: contractTheme.colors.lightText
       }}>
         Loading contract...
       </div>
@@ -68,7 +69,7 @@ const App: React.FC = () => {
         alignItems: 'center',
         justifyContent: 'center',
         fontSize: '18px',
-        color: '#e74c3c'
+        color: contractTheme.colors.error
       }}>
         {error}
       </div>
