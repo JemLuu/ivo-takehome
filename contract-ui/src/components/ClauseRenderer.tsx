@@ -4,7 +4,7 @@
 
 import React, { useEffect, useState } from 'react';
 import type { BlockNode } from '../types/ContractTypes';
-import { useContractContext } from '../context/ContractContext';
+import { useContractContext } from '../context/useContractContext';
 import { NodeRenderer } from './NodeRenderer';
 
 interface ClauseRendererProps {
@@ -28,7 +28,7 @@ export const ClauseRenderer: React.FC<ClauseRendererProps> = ({ node, inheritedM
     if (!isNested) {
       setClauseNumber(getNextClauseNumber());
     }
-  }, [isNested]);
+  }, [isNested, getNextClauseNumber]);
 
   // Merge inherited marks with node marks
   const marks = {

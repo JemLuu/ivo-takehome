@@ -3,7 +3,7 @@
  */
 
 import React from 'react';
-import type { BlockNode } from '../types/ContractTypes';
+import type { BlockNode, TextNode } from '../types/ContractTypes';
 import { NodeRenderer } from './NodeRenderer';
 import { TextRenderer } from './TextRenderer';
 
@@ -18,7 +18,7 @@ interface BlockRendererProps {
   isNested?: boolean;
 }
 
-export const BlockRenderer: React.FC<BlockRendererProps> = ({ node, inheritedMarks = {}, parentType, isNested = false }) => {
+export const BlockRenderer: React.FC<BlockRendererProps> = ({ node, inheritedMarks = {}, isNested = false }) => {
   // Merge inherited marks with node marks
   const marks = {
     bold: node.bold || inheritedMarks.bold,
@@ -35,7 +35,7 @@ export const BlockRenderer: React.FC<BlockRendererProps> = ({ node, inheritedMar
       if (child && typeof child === 'object' && 'type' in child && child.type === 'p' && node.type === 'p') {
         // If it's a nested p with just text, render the text directly
         if ('text' in child) {
-          return <TextRenderer key={index} node={child as any} inheritedMarks={marks} />;
+          return <TextRenderer key={index} node={child as TextNode} inheritedMarks={marks} />;
         }
       }
 
@@ -87,7 +87,7 @@ export const BlockRenderer: React.FC<BlockRendererProps> = ({ node, inheritedMar
     case 'h6':
       return <h6 style={{ ...elementStyle, fontSize: '14px', marginBottom: '8px', marginTop: '8px', color: '#2c3e50' }}>{renderChildren()}</h6>;
 
-    case 'p':
+    case 'p': {
       // Check if this p element contains block-level children (which would be invalid HTML)
       const hasBlockChildren = node.children && Array.isArray(node.children) && node.children.some(child =>
         child && typeof child === 'object' && 'type' in child &&
@@ -99,6 +99,7 @@ export const BlockRenderer: React.FC<BlockRendererProps> = ({ node, inheritedMar
         return <div style={{ ...elementStyle, marginBottom: '12px', lineHeight: '1.6' }}>{renderChildren()}</div>;
       }
       return <p style={{ ...elementStyle, marginBottom: '8px', lineHeight: '1.6', whiteSpace: 'pre-line' }}>{renderChildren()}</p>;
+    }
 
     case 'ul':
       return <ul style={{ ...elementStyle, marginBottom: '8px', marginTop: '4px', paddingLeft: '40px', listStyleType: 'disc' }}>{renderChildren()}</ul>;

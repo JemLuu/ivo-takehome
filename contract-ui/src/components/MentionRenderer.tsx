@@ -4,7 +4,7 @@
 
 import React from 'react';
 import type { MentionNode } from '../types/ContractTypes';
-import { useContractContext } from '../context/ContractContext';
+import { useContractContext } from '../context/useContractContext';
 import { NodeRenderer } from './NodeRenderer';
 
 interface MentionRendererProps {

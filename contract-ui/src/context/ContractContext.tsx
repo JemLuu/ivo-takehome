@@ -2,25 +2,8 @@
  * Context for managing contract-wide state like clause numbering and mention values
  */
 
-import React, { createContext, useContext, useState, useRef, ReactNode } from 'react';
-
-interface ContractContextType {
-  clauseCounter: React.MutableRefObject<number>;
-  mentionValues: Map<string, string>;
-  updateMentionValue: (id: string, value: string) => void;
-  getNextClauseNumber: () => number;
-  resetClauseCounter: () => void;
-}
-
-const ContractContext = createContext<ContractContextType | undefined>(undefined);
-
-export const useContractContext = () => {
-  const context = useContext(ContractContext);
-  if (!context) {
-    throw new Error('useContractContext must be used within ContractProvider');
-  }
-  return context;
-};
+import React, { useState, useRef, type ReactNode } from 'react';
+import { ContractContext } from './contractContext';
 
 interface ContractProviderProps {
   children: ReactNode;

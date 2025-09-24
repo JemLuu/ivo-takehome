@@ -5,7 +5,7 @@
 import React, { useEffect } from 'react';
 import type { ContractData } from '../types/ContractTypes';
 import { NodeRenderer } from './NodeRenderer';
-import { useContractContext } from '../context/ContractContext';
+import { useContractContext } from '../context/useContractContext';
 
 interface ContractRendererProps {
   data: ContractData;
