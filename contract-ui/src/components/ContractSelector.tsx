@@ -21,7 +21,12 @@ const contractOptions: ContractOption[] = [
   { id: 'input7', name: 'input7.json', file: 'input7.json' },
   { id: 'input8', name: 'input8.json', file: 'input8.json' },
   { id: 'input9', name: 'input9.json', file: 'input9.json' },
-  { id: 'input10', name: 'input10.json', file: 'input10.json' }
+  { id: 'input10', name: 'input10.json', file: 'input10.json' },
+  { id: 'input11', name: 'input11.json', file: 'input11.json' },
+  { id: 'input12', name: 'input12.json', file: 'input12.json' },
+  { id: 'input13', name: 'input13.json', file: 'input13.json' },
+  { id: 'input14', name: 'input14.json', file: 'input14.json' },
+  { id: 'input15', name: 'input15.json', file: 'input15.json' }
 ];
 
 export const ContractSelector: React.FC<ContractSelectorProps> = ({

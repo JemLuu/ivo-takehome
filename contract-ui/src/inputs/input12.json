@@ -1,0 +1,361 @@
+[
+  {
+    "title": "Software License Agreement",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Software License Agreement"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "title": "Description",
+        "children": [
+          {
+            "text": "This Software License Agreement (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Agreement\""
+          },
+          {
+            "text": ") is dated "
+          },
+          {
+            "color": "rgb(138, 43, 226)",
+            "type": "mention",
+            "title": "License Date",
+            "variableType": "Date",
+            "children": [
+              {
+                "text": "October 1, 2024"
+              }
+            ],
+            "id": "License Date",
+            "value": "October 1, 2024"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "PARTIES"
+              },
+              {
+                "text": "\n 1.  "
+              },
+              {
+                "color": "rgb(255, 20, 147)",
+                "type": "mention",
+                "title": "Software Provider",
+                "children": [
+                  {
+                    "text": "CodeWorks Technologies"
+                  }
+                ],
+                "id": "Licensor",
+                "value": "CodeWorks Technologies"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Licensor\""
+              },
+              {
+                "text": ").\n 2.  "
+              },
+              {
+                "color": "rgb(0, 191, 255)",
+                "type": "mention",
+                "title": "Licensed Company",
+                "children": [
+                  {
+                    "text": "Digital Solutions Corp"
+                  }
+                ],
+                "id": "Licensee",
+                "value": "Digital Solutions Corp"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Licensee\""
+              },
+              {
+                "text": ").\nEach being a "
+              },
+              {
+                "bold": true,
+                "text": "\"party\""
+              },
+              {
+                "text": " and together being the "
+              },
+              {
+                "bold": true,
+                "text": "\"parties\""
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "License Terms",
+        "children": [
+          {
+            "type": "h4",
+            "title": "License Terms",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "License Terms."
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "title": "License Details",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Effective Date"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(138, 43, 226)",
+                        "type": "mention",
+                        "title": "License Date",
+                        "variableType": "Date",
+                        "children": [
+                          {
+                            "text": "October 1, 2024"
+                          }
+                        ],
+                        "id": "License Date",
+                        "value": "October 1, 2024"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "License Type"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(255, 140, 0)",
+                        "type": "mention",
+                        "title": "License Type",
+                        "children": [
+                          {
+                            "text": "Enterprise Multi-User"
+                          }
+                        ],
+                        "id": "License Type",
+                        "value": "Enterprise Multi-User"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Software Definitions",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Software Definitions",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Software Definitions."
+              },
+              {
+                "text": " For purposes of this Agreement, the following terms shall have the meanings specified:"
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Licensed Software definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Licensed Software"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means the proprietary software application known as "
+                  },
+                  {
+                    "color": "rgb(50, 205, 50)",
+                    "type": "mention",
+                    "title": "Software Name",
+                    "children": [
+                      {
+                        "text": "ProjectMaster Pro v3.5"
+                      }
+                    ],
+                    "id": "Software Name",
+                    "value": "ProjectMaster Pro v3.5"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Documentation definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Documentation"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means all user manuals, technical documentation, and online help files provided with the Licensed Software."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "type": "clause",
+            "children": [
+              {
+                "type": "h4",
+                "title": "Grant of License",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Grant of License"
+                  },
+                  {
+                    "text": "\nSubject to the terms of this Agreement, Licensor grants Licensee:\n"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "a non-exclusive, non-transferable license to use the Licensed Software;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "the right to install the software on up to 50 authorized workstations;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "title": "Grant of License",
+                        "children": [
+                          {
+                            "text": "access to technical support and software updates for the license period;\n"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

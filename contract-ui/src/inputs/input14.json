@@ -1,0 +1,361 @@
+[
+  {
+    "title": "Maintenance Contract",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Maintenance Contract"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "title": "Description",
+        "children": [
+          {
+            "text": "This Maintenance Contract (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Agreement\""
+          },
+          {
+            "text": ") is dated "
+          },
+          {
+            "color": "rgb(46, 125, 50)",
+            "type": "mention",
+            "title": "Contract Start Date",
+            "variableType": "Date",
+            "children": [
+              {
+                "text": "January 15, 2025"
+              }
+            ],
+            "id": "Contract Date",
+            "value": "January 15, 2025"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "PARTIES"
+              },
+              {
+                "text": "\n 1.  "
+              },
+              {
+                "color": "rgb(244, 67, 54)",
+                "type": "mention",
+                "title": "Service Provider",
+                "children": [
+                  {
+                    "text": "TechSupport Solutions"
+                  }
+                ],
+                "id": "Service Provider",
+                "value": "TechSupport Solutions"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Service Provider\""
+              },
+              {
+                "text": ").\n 2.  "
+              },
+              {
+                "color": "rgb(103, 58, 183)",
+                "type": "mention",
+                "title": "Client Organization",
+                "children": [
+                  {
+                    "text": "Manufacturing Plus Ltd"
+                  }
+                ],
+                "id": "Client",
+                "value": "Manufacturing Plus Ltd"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Client\""
+              },
+              {
+                "text": ").\nEach being a "
+              },
+              {
+                "bold": true,
+                "text": "\"party\""
+              },
+              {
+                "text": " and together being the "
+              },
+              {
+                "bold": true,
+                "text": "\"parties\""
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Service Details",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Service Details",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Service Details."
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "title": "Service Parameters",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Service Start Date"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(46, 125, 50)",
+                        "type": "mention",
+                        "title": "Contract Start Date",
+                        "variableType": "Date",
+                        "children": [
+                          {
+                            "text": "January 15, 2025"
+                          }
+                        ],
+                        "id": "Contract Date",
+                        "value": "January 15, 2025"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Service Level"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(255, 193, 7)",
+                        "type": "mention",
+                        "title": "Maintenance Level",
+                        "children": [
+                          {
+                            "text": "Premium 24/7 Support"
+                          }
+                        ],
+                        "id": "Service Level",
+                        "value": "Premium 24/7 Support"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Service Specifications",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Service Specifications",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Service Specifications."
+              },
+              {
+                "text": " The following service terms and definitions shall apply:"
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Response Time definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Response Time"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means the maximum time for initial response to service requests, guaranteed within "
+                  },
+                  {
+                    "color": "rgb(76, 175, 80)",
+                    "type": "mention",
+                    "title": "Response Time SLA",
+                    "children": [
+                      {
+                        "text": "2 hours"
+                      }
+                    ],
+                    "id": "Response Time",
+                    "value": "2 hours"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Covered Equipment definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Covered Equipment"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means all hardware and software systems listed in the equipment inventory maintained by both parties."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "type": "clause",
+            "children": [
+              {
+                "type": "h4",
+                "title": "Service Provider Obligations",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Service Provider Obligations"
+                  },
+                  {
+                    "text": "\nThe Service Provider shall:\n"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "provide preventive maintenance on all Covered Equipment according to manufacturer specifications;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "maintain detailed service logs and provide monthly performance reports;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "title": "Service Provider Obligations",
+                        "children": [
+                          {
+                            "text": "ensure all technicians are certified and qualified for the specific equipment being serviced;\n"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

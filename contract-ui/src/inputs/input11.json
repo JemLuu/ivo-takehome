@@ -1,0 +1,361 @@
+[
+  {
+    "title": "Consulting Agreement",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Consulting Agreement"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "title": "Description",
+        "children": [
+          {
+            "text": "This Consulting Agreement (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Agreement\""
+          },
+          {
+            "text": ") is dated "
+          },
+          {
+            "color": "rgb(255, 87, 51)",
+            "type": "mention",
+            "title": "Contract Date",
+            "variableType": "Date",
+            "children": [
+              {
+                "text": "September 15, 2024"
+              }
+            ],
+            "id": "Contract Date",
+            "value": "September 15, 2024"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "PARTIES"
+              },
+              {
+                "text": "\n 1.  "
+              },
+              {
+                "color": "rgb(255, 99, 71)",
+                "type": "mention",
+                "title": "Consultant Name",
+                "children": [
+                  {
+                    "text": "Strategic Solutions LLC"
+                  }
+                ],
+                "id": "Consultant",
+                "value": "Strategic Solutions LLC"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Consultant\""
+              },
+              {
+                "text": ").\n 2.  "
+              },
+              {
+                "color": "rgb(70, 130, 180)",
+                "type": "mention",
+                "title": "Client Company Name",
+                "children": [
+                  {
+                    "text": "Global Enterprises Inc"
+                  }
+                ],
+                "id": "Client",
+                "value": "Global Enterprises Inc"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Client\""
+              },
+              {
+                "text": ").\nEach being a "
+              },
+              {
+                "bold": true,
+                "text": "\"party\""
+              },
+              {
+                "text": " and together being the "
+              },
+              {
+                "bold": true,
+                "text": "\"parties\""
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Engagement Details",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Engagement Details",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Engagement Details."
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "title": "Key Terms",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Start Date"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(255, 87, 51)",
+                        "type": "mention",
+                        "title": "Contract Date",
+                        "variableType": "Date",
+                        "children": [
+                          {
+                            "text": "September 15, 2024"
+                          }
+                        ],
+                        "id": "Contract Date",
+                        "value": "September 15, 2024"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Duration"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(34, 139, 34)",
+                        "type": "mention",
+                        "title": "Project Duration",
+                        "children": [
+                          {
+                            "text": "6 months"
+                          }
+                        ],
+                        "id": "Duration",
+                        "value": "6 months"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Scope of Work",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Scope of Work",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Scope of Work."
+              },
+              {
+                "text": " The Consultant shall provide the following services to the Client:"
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Strategic Planning",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Strategic Planning"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means developing comprehensive business strategies for "
+                  },
+                  {
+                    "color": "rgb(218, 165, 32)",
+                    "type": "mention",
+                    "title": "Business Area",
+                    "children": [
+                      {
+                        "text": "market expansion"
+                      }
+                    ],
+                    "id": "Business Area",
+                    "value": "market expansion"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Implementation Support",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Implementation Support"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means providing ongoing guidance and support for strategy execution with monthly progress reviews."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "type": "clause",
+            "children": [
+              {
+                "type": "h4",
+                "title": "Consultant Responsibilities",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Consultant Responsibilities"
+                  },
+                  {
+                    "text": "\nThe Consultant shall:\n"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "conduct thorough market analysis and competitive research;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "deliver monthly progress reports and strategic recommendations;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "title": "Consultant Responsibilities",
+                        "children": [
+                          {
+                            "text": "maintain confidentiality of all Client proprietary information;\n"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,361 @@
+[
+  {
+    "title": "Partnership Agreement",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Partnership Agreement"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "title": "Description",
+        "children": [
+          {
+            "text": "This Partnership Agreement (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Agreement\""
+          },
+          {
+            "text": ") is dated "
+          },
+          {
+            "color": "rgb(220, 20, 60)",
+            "type": "mention",
+            "title": "Partnership Date",
+            "variableType": "Date",
+            "children": [
+              {
+                "text": "December 1, 2024"
+              }
+            ],
+            "id": "Partnership Date",
+            "value": "December 1, 2024"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "PARTIES"
+              },
+              {
+                "text": "\n 1.  "
+              },
+              {
+                "color": "rgb(255, 215, 0)",
+                "type": "mention",
+                "title": "First Partner",
+                "children": [
+                  {
+                    "text": "Alpha Ventures LLC"
+                  }
+                ],
+                "id": "Partner A",
+                "value": "Alpha Ventures LLC"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Partner A\""
+              },
+              {
+                "text": ").\n 2.  "
+              },
+              {
+                "color": "rgb(32, 178, 170)",
+                "type": "mention",
+                "title": "Second Partner",
+                "children": [
+                  {
+                    "text": "Beta Industries Inc"
+                  }
+                ],
+                "id": "Partner B",
+                "value": "Beta Industries Inc"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Partner B\""
+              },
+              {
+                "text": ").\nEach being a "
+              },
+              {
+                "bold": true,
+                "text": "\"partner\""
+              },
+              {
+                "text": " and together being the "
+              },
+              {
+                "bold": true,
+                "text": "\"partners\""
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Partnership Terms",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Partnership Terms",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Partnership Terms."
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "title": "Key Terms",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Commencement Date"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(220, 20, 60)",
+                        "type": "mention",
+                        "title": "Partnership Date",
+                        "variableType": "Date",
+                        "children": [
+                          {
+                            "text": "December 1, 2024"
+                          }
+                        ],
+                        "id": "Partnership Date",
+                        "value": "December 1, 2024"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Partnership Duration"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(107, 142, 35)",
+                        "type": "mention",
+                        "title": "Partnership Term",
+                        "children": [
+                          {
+                            "text": "3 years"
+                          }
+                        ],
+                        "id": "Partnership Term",
+                        "value": "3 years"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Partnership Structure",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Partnership Structure",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Partnership Structure."
+              },
+              {
+                "text": " The partnership shall operate under the following structure and definitions:"
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Profit Sharing definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Profit Sharing"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means the distribution of partnership profits based on "
+                  },
+                  {
+                    "color": "rgb(186, 85, 211)",
+                    "type": "mention",
+                    "title": "Profit Split Ratio",
+                    "children": [
+                      {
+                        "text": "60/40 allocation"
+                      }
+                    ],
+                    "id": "Profit Split",
+                    "value": "60/40 allocation"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Management Rights definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Management Rights"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means the authority to make operational decisions and represent the partnership in business matters."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "type": "clause",
+            "children": [
+              {
+                "type": "h4",
+                "title": "Partner Responsibilities",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Partner Responsibilities"
+                  },
+                  {
+                    "text": "\nEach Partner shall:\n"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "contribute their respective expertise and resources as outlined in Schedule A;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "maintain accurate financial records and provide quarterly reporting;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "title": "Partner Responsibilities",
+                        "children": [
+                          {
+                            "text": "act in good faith and in the best interests of the partnership at all times;\n"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

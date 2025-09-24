@@ -1,0 +1,361 @@
+[
+  {
+    "title": "Distribution Agreement",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Distribution Agreement"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "title": "Description",
+        "children": [
+          {
+            "text": "This Distribution Agreement (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Agreement\""
+          },
+          {
+            "text": ") is dated "
+          },
+          {
+            "color": "rgb(255, 87, 34)",
+            "type": "mention",
+            "title": "Distribution Date",
+            "variableType": "Date",
+            "children": [
+              {
+                "text": "March 1, 2025"
+              }
+            ],
+            "id": "Distribution Date",
+            "value": "March 1, 2025"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "PARTIES"
+              },
+              {
+                "text": "\n 1.  "
+              },
+              {
+                "color": "rgb(63, 81, 181)",
+                "type": "mention",
+                "title": "Manufacturer Name",
+                "children": [
+                  {
+                    "text": "Premier Products Inc"
+                  }
+                ],
+                "id": "Manufacturer",
+                "value": "Premier Products Inc"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Manufacturer\""
+              },
+              {
+                "text": ").\n 2.  "
+              },
+              {
+                "color": "rgb(156, 39, 176)",
+                "type": "mention",
+                "title": "Distributor Company",
+                "children": [
+                  {
+                    "text": "Regional Distribution Co"
+                  }
+                ],
+                "id": "Distributor",
+                "value": "Regional Distribution Co"
+              },
+              {
+                "text": " ("
+              },
+              {
+                "bold": true,
+                "text": "\"Distributor\""
+              },
+              {
+                "text": ").\nEach being a "
+              },
+              {
+                "bold": true,
+                "text": "\"party\""
+              },
+              {
+                "text": " and together being the "
+              },
+              {
+                "bold": true,
+                "text": "\"parties\""
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Distribution Terms",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Distribution Terms",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Distribution Terms."
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "title": "Key Terms",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Effective Date"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(255, 87, 34)",
+                        "type": "mention",
+                        "title": "Distribution Date",
+                        "variableType": "Date",
+                        "children": [
+                          {
+                            "text": "March 1, 2025"
+                          }
+                        ],
+                        "id": "Distribution Date",
+                        "value": "March 1, 2025"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "bold": true,
+                        "text": "Territory"
+                      },
+                      {
+                        "text": ": "
+                      },
+                      {
+                        "color": "rgb(0, 150, 136)",
+                        "type": "mention",
+                        "title": "Distribution Territory",
+                        "children": [
+                          {
+                            "text": "Pacific Northwest Region"
+                          }
+                        ],
+                        "id": "Territory",
+                        "value": "Pacific Northwest Region"
+                      },
+                      {
+                        "text": "."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Commercial Terms",
+        "children": [
+          {
+            "type": "h4",
+            "title": "Commercial Terms",
+            "children": [
+              {
+                "underline": true,
+                "bold": true,
+                "text": "Commercial Terms."
+              },
+              {
+                "text": " The following commercial definitions and terms shall apply:"
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Products definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Products"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means the manufactured goods and merchandise listed in "
+                  },
+                  {
+                    "color": "rgb(121, 85, 72)",
+                    "type": "mention",
+                    "title": "Product Catalog",
+                    "children": [
+                      {
+                        "text": "Exhibit A Product Catalog"
+                      }
+                    ],
+                    "id": "Product Catalog",
+                    "value": "Exhibit A Product Catalog"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Minimum Orders definition",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Minimum Orders"
+                  },
+                  {
+                    "type": "p",
+                    "text": " means the quarterly purchase commitment as specified in the order schedules and payment terms."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "type": "clause",
+            "children": [
+              {
+                "type": "h4",
+                "title": "Distributor Obligations",
+                "children": [
+                  {
+                    "bold": true,
+                    "text": "Distributor Obligations"
+                  },
+                  {
+                    "text": "\nThe Distributor shall:\n"
+                  }
+                ]
+              },
+              {
+                "type": "ul",
+                "children": [
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "maintain adequate inventory levels to meet customer demand within the Territory;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "children": [
+                          {
+                            "text": "provide sales reporting and market feedback to Manufacturer on a monthly basis;"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "li",
+                    "children": [
+                      {
+                        "type": "lic",
+                        "title": "Distributor Obligations",
+                        "children": [
+                          {
+                            "text": "maintain professional sales and customer service standards in all dealings with end customers;\n"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
