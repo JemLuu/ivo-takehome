@@ -1,0 +1,329 @@
+[
+  {
+    "title": "List Heavy Document",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "List-Heavy Document Test"
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Unordered Lists",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Complex Unordered Lists."
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "First level item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Second level with mention: "
+                      },
+                      {
+                        "color": "rgb(100, 149, 237)",
+                        "type": "mention",
+                        "title": "List Item Variable",
+                        "children": [
+                          {
+                            "text": "List Value"
+                          }
+                        ],
+                        "id": "ListVar1",
+                        "value": "List Value"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Item with multiple formats: "
+                      },
+                      {
+                        "bold": true,
+                        "text": "bold"
+                      },
+                      {
+                        "text": ", "
+                      },
+                      {
+                        "italic": true,
+                        "text": "italic"
+                      },
+                      {
+                        "text": ", "
+                      },
+                      {
+                        "underline": true,
+                        "text": "underlined"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Ordered Lists",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Complex Ordered Lists."
+              }
+            ]
+          },
+          {
+            "type": "ol",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "First numbered item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Second numbered item with "
+                      },
+                      {
+                        "color": "rgb(255, 140, 0)",
+                        "type": "mention",
+                        "title": "Ordered List Variable",
+                        "children": [
+                          {
+                            "text": "Ordered Value"
+                          }
+                        ],
+                        "id": "OrderedVar",
+                        "value": "Ordered Value"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Third item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Fourth item"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Fifth item with "
+                      },
+                      {
+                        "bold": true,
+                        "italic": true,
+                        "text": "bold italic formatting"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Mixed Lists",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Multiple List Types Together."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "First an unordered list:"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Bullet point one"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Bullet point two"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Then an ordered list:"
+              }
+            ]
+          },
+          {
+            "type": "ol",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Numbered item A"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Numbered item B"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "And another unordered list:"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Final bullet point"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

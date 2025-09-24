@@ -1,0 +1,305 @@
+[
+  {
+    "title": "Residential Lease Agreement",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Residential Lease Agreement"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "This Lease Agreement (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Lease\""
+          },
+          {
+            "text": ") is entered into on "
+          },
+          {
+            "color": "rgb(255, 205, 86)",
+            "type": "mention",
+            "title": "Lease Start Date",
+            "children": [
+              {
+                "text": "June 1, 2024"
+              }
+            ],
+            "id": "Lease Start Date",
+            "value": "June 1, 2024"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "LANDLORD:"
+              },
+              {
+                "text": " "
+              },
+              {
+                "color": "rgb(255, 99, 132)",
+                "type": "mention",
+                "title": "Landlord Name",
+                "children": [
+                  {
+                    "text": "Property Management Solutions Inc."
+                  }
+                ],
+                "id": "Landlord",
+                "value": "Property Management Solutions Inc."
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "bold": true,
+                "text": "TENANT:"
+              },
+              {
+                "text": " "
+              },
+              {
+                "color": "rgb(54, 162, 235)",
+                "type": "mention",
+                "title": "Tenant Name",
+                "children": [
+                  {
+                    "text": "Sarah Johnson"
+                  }
+                ],
+                "id": "Tenant",
+                "value": "Sarah Johnson"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Property Description",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Property Description."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "The Landlord hereby leases to the Tenant the property located at "
+              },
+              {
+                "color": "rgb(153, 102, 255)",
+                "type": "mention",
+                "title": "Property Address",
+                "children": [
+                  {
+                    "text": "1234 Oak Street, Apartment 2B, San Francisco, CA 94102"
+                  }
+                ],
+                "id": "Property Address",
+                "value": "1234 Oak Street, Apartment 2B, San Francisco, CA 94102"
+              },
+              {
+                "text": " (the "
+              },
+              {
+                "bold": true,
+                "text": "\"Premises\""
+              },
+              {
+                "text": ")."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Lease Term and Rent",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Lease Term and Rent."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "The lease term shall be for "
+              },
+              {
+                "color": "rgb(75, 192, 192)",
+                "type": "mention",
+                "title": "Lease Duration",
+                "children": [
+                  {
+                    "text": "12 months"
+                  }
+                ],
+                "id": "Lease Duration",
+                "value": "12 months"
+              },
+              {
+                "text": " commencing on the Lease Start Date. The monthly rent shall be "
+              },
+              {
+                "color": "rgb(255, 206, 86)",
+                "type": "mention",
+                "title": "Monthly Rent",
+                "children": [
+                  {
+                    "text": "$3,200"
+                  }
+                ],
+                "id": "Monthly Rent",
+                "value": "$3,200"
+              },
+              {
+                "text": ", payable on the first day of each month."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Security Deposit",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Security Deposit."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Upon execution of this Lease, Tenant shall pay a security deposit of "
+              },
+              {
+                "color": "rgb(126, 204, 73)",
+                "type": "mention",
+                "title": "Security Deposit Amount",
+                "children": [
+                  {
+                    "text": "$3,200"
+                  }
+                ],
+                "id": "Security Deposit",
+                "value": "$3,200"
+              },
+              {
+                "text": " to secure Tenant's performance of this Lease."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Utilities and Services",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Utilities and Services."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Tenant shall be responsible for the following utilities and services:"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Electricity and gas"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Internet and cable services"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Renter's insurance (minimum coverage of $100,000)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

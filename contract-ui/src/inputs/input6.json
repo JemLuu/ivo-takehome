@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Minimal Structure Test",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Minimal Test"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Simple document with just basic text."
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Single Clause",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "text": "Basic Clause."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "This is the simplest possible clause structure."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

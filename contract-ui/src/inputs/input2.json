@@ -1,0 +1,207 @@
+[
+  {
+    "title": "Employment Contract",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Employment Agreement"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "This Employment Agreement (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Agreement\""
+          },
+          {
+            "text": ") is entered into on "
+          },
+          {
+            "color": "rgb(75, 192, 192)",
+            "type": "mention",
+            "title": "Start Date",
+            "children": [
+              {
+                "text": "January 1, 2024"
+              }
+            ],
+            "id": "Start Date",
+            "value": "January 1, 2024"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "EMPLOYER:"
+              },
+              {
+                "text": " "
+              },
+              {
+                "color": "rgb(255, 99, 132)",
+                "type": "mention",
+                "title": "Company Name",
+                "children": [
+                  {
+                    "text": "Tech Innovations Inc."
+                  }
+                ],
+                "id": "Company",
+                "value": "Tech Innovations Inc."
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "bold": true,
+                "text": "EMPLOYEE:"
+              },
+              {
+                "text": " "
+              },
+              {
+                "color": "rgb(54, 162, 235)",
+                "type": "mention",
+                "title": "Employee Name",
+                "children": [
+                  {
+                    "text": "John Smith"
+                  }
+                ],
+                "id": "Employee",
+                "value": "John Smith"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Position and Duties",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Position and Duties."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "The Employee shall serve as "
+              },
+              {
+                "color": "rgb(153, 102, 255)",
+                "type": "mention",
+                "title": "Job Title",
+                "children": [
+                  {
+                    "text": "Senior Software Engineer"
+                  }
+                ],
+                "id": "Job Title",
+                "value": "Senior Software Engineer"
+              },
+              {
+                "text": " and shall perform duties including:"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Develop and maintain software applications"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Collaborate with cross-functional teams"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Compensation",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Compensation."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "The Employee shall receive an annual salary of "
+              },
+              {
+                "color": "rgb(255, 206, 86)",
+                "type": "mention",
+                "title": "Annual Salary",
+                "children": [
+                  {
+                    "text": "$95,000"
+                  }
+                ],
+                "id": "Salary",
+                "value": "$95,000"
+              },
+              {
+                "text": ", payable in accordance with the Company's standard payroll practices."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

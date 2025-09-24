@@ -1,0 +1,251 @@
+[
+  {
+    "title": "Non-Disclosure Agreement",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Non-Disclosure Agreement"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "This Non-Disclosure Agreement (the "
+          },
+          {
+            "bold": true,
+            "text": "\"Agreement\""
+          },
+          {
+            "text": ") is executed on "
+          },
+          {
+            "color": "rgb(255, 159, 64)",
+            "type": "mention",
+            "title": "Execution Date",
+            "children": [
+              {
+                "text": "March 15, 2024"
+              }
+            ],
+            "id": "Execution Date",
+            "value": "March 15, 2024"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Parties",
+        "children": [
+          {
+            "type": "p",
+            "children": [
+              {
+                "bold": true,
+                "text": "DISCLOSING PARTY:"
+              },
+              {
+                "text": " "
+              },
+              {
+                "color": "rgb(255, 99, 132)",
+                "type": "mention",
+                "title": "Disclosing Party",
+                "children": [
+                  {
+                    "text": "InnovateTech Corp"
+                  }
+                ],
+                "id": "Disclosing Party",
+                "value": "InnovateTech Corp"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "bold": true,
+                "text": "RECEIVING PARTY:"
+              },
+              {
+                "text": " "
+              },
+              {
+                "color": "rgb(54, 162, 235)",
+                "type": "mention",
+                "title": "Receiving Party",
+                "children": [
+                  {
+                    "text": "Strategic Consulting LLC"
+                  }
+                ],
+                "id": "Receiving Party",
+                "value": "Strategic Consulting LLC"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Definition of Confidential Information",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Definition of Confidential Information."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "For purposes of this Agreement, "
+              },
+              {
+                "bold": true,
+                "text": "\"Confidential Information\""
+              },
+              {
+                "text": " means all non-public, proprietary information disclosed by the Disclosing Party, including but not limited to:"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Technical data, trade secrets, and know-how"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Business plans, strategies, and customer information"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Financial information and market analysis"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Obligations of Receiving Party",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Obligations of Receiving Party."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "The Receiving Party agrees to maintain the confidentiality of all Confidential Information for a period of "
+              },
+              {
+                "color": "rgb(126, 204, 73)",
+                "type": "mention",
+                "title": "Confidentiality Period",
+                "children": [
+                  {
+                    "text": "5 years"
+                  }
+                ],
+                "id": "Confidentiality Period",
+                "value": "5 years"
+              },
+              {
+                "text": " from the date of disclosure."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Governing Law",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Governing Law."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "This Agreement shall be governed by the laws of "
+              },
+              {
+                "color": "rgb(153, 102, 255)",
+                "type": "mention",
+                "title": "Governing State",
+                "children": [
+                  {
+                    "text": "California"
+                  }
+                ],
+                "id": "Governing State",
+                "value": "California"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

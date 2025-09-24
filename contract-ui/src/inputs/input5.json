@@ -1,0 +1,228 @@
+[
+  {
+    "title": "Complex Nested Structure Test",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Complex Document Structure Test"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "This document tests deeply nested structures, multiple formatting combinations, and edge cases."
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Nested Clauses Test",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "italic": true,
+                "text": "Multiple Formatting Test."
+              }
+            ]
+          },
+          {
+            "type": "clause",
+            "title": "Sub-clause Level 1",
+            "children": [
+              {
+                "type": "p",
+                "children": [
+                  {
+                    "text": "This is a nested clause with "
+                  },
+                  {
+                    "bold": true,
+                    "italic": true,
+                    "text": "bold and italic"
+                  },
+                  {
+                    "text": " text and a mention: "
+                  },
+                  {
+                    "color": "rgb(255, 0, 128)",
+                    "type": "mention",
+                    "title": "Nested Variable",
+                    "children": [
+                      {
+                        "text": "Deep Value"
+                      }
+                    ],
+                    "id": "Nested Var",
+                    "value": "Deep Value"
+                  },
+                  {
+                    "text": "."
+                  }
+                ]
+              },
+              {
+                "type": "clause",
+                "title": "Sub-clause Level 2",
+                "children": [
+                  {
+                    "type": "h5",
+                    "children": [
+                      {
+                        "underline": true,
+                        "text": "Even Deeper Nesting"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "ol",
+                    "children": [
+                      {
+                        "type": "li",
+                        "children": [
+                          {
+                            "type": "lic",
+                            "children": [
+                              {
+                                "text": "Ordered list item with "
+                              },
+                              {
+                                "bold": true,
+                                "text": "bold text"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "li",
+                        "children": [
+                          {
+                            "type": "lic",
+                            "children": [
+                              {
+                                "italic": true,
+                                "text": "Second item in italic"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Mixed Content Test",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Mixed Content Types."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "This section contains:"
+              }
+            ]
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "A list item with a mention: "
+                      },
+                      {
+                        "color": "rgb(0, 255, 255)",
+                        "type": "mention",
+                        "title": "List Variable",
+                        "children": [
+                          {
+                            "text": "Cyan Value"
+                          }
+                        ],
+                        "id": "List Var",
+                        "value": "Cyan Value"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Mixed formatting: "
+                      },
+                      {
+                        "bold": true,
+                        "italic": true,
+                        "underline": true,
+                        "text": "all three formats"
+                      },
+                      {
+                        "text": " together"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "h6",
+            "children": [
+              {
+                "text": "Subsection with H6"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Testing different heading levels and "
+              },
+              {
+                "underline": true,
+                "text": "underlined text only"
+              },
+              {
+                "text": "."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

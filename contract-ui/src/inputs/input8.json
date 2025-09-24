@@ -1,0 +1,141 @@
+[
+  {
+    "title": "Multiple Document Structure",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "First Document Section"
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "First Document Clause",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Document One Clause."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Content in first document with variable: "
+              },
+              {
+                "color": "rgb(255, 0, 0)",
+                "type": "mention",
+                "title": "Doc1 Variable",
+                "children": [
+                  {
+                    "text": "First Doc Value"
+                  }
+                ],
+                "id": "Doc1Var",
+                "value": "First Doc Value"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Second Document",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Second Document Section"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "This tests multiple top-level document blocks in a single JSON array."
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Second Document Clause",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Document Two Clause."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Content in second document with different variable: "
+              },
+              {
+                "color": "rgb(0, 255, 0)",
+                "type": "mention",
+                "title": "Doc2 Variable",
+                "children": [
+                  {
+                    "text": "Second Doc Value"
+                  }
+                ],
+                "id": "Doc2Var",
+                "value": "Second Doc Value"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Cross-Reference Test",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Cross-Document References."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Testing clause numbering across documents. This should be clause "
+              },
+              {
+                "bold": true,
+                "text": "4"
+              },
+              {
+                "text": " if numbering continues from previous document."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

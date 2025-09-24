@@ -1,0 +1,127 @@
+[
+  {
+    "title": "No Clauses Test",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Document Without Numbered Clauses"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "This document has no clause elements to test how the application handles documents without numbered sections."
+          }
+        ]
+      },
+      {
+        "type": "h2",
+        "children": [
+          {
+            "bold": true,
+            "text": "Regular Section Header"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "Just regular paragraphs and headers with mentions: "
+          },
+          {
+            "color": "rgb(60, 179, 113)",
+            "type": "mention",
+            "title": "Non-Clause Variable",
+            "children": [
+              {
+                "text": "Regular Value"
+              }
+            ],
+            "id": "RegularVar",
+            "value": "Regular Value"
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "type": "h3",
+        "children": [
+          {
+            "italic": true,
+            "text": "Another Section"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": "More content without clause numbering."
+          }
+        ]
+      },
+      {
+        "type": "block",
+        "title": "Block Section",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "underline": true,
+                "text": "Block-level Content"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Testing block elements without clauses."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "ul",
+        "children": [
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "lic",
+                "children": [
+                  {
+                    "text": "List outside of clauses"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "li",
+            "children": [
+              {
+                "type": "lic",
+                "children": [
+                  {
+                    "text": "Should still render properly"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

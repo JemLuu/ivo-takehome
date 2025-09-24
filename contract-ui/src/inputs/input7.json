@@ -1,0 +1,172 @@
+[
+  {
+    "title": "Empty and Edge Cases",
+    "type": "block",
+    "children": [
+      {
+        "type": "h1",
+        "children": [
+          {
+            "text": "Edge Cases Test Document"
+          }
+        ]
+      },
+      {
+        "type": "p",
+        "children": [
+          {
+            "text": ""
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Empty Content Test",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "text": "Empty Elements."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": []
+          },
+          {
+            "type": "ul",
+            "children": [
+              {
+                "type": "li",
+                "children": [
+                  {
+                    "type": "lic",
+                    "children": [
+                      {
+                        "text": "Item with empty mention: "
+                      },
+                      {
+                        "color": "rgb(200, 200, 200)",
+                        "type": "mention",
+                        "title": "Empty Variable",
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "id": "Empty Var",
+                        "value": ""
+                      },
+                      {
+                        "text": " (end)"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Special Characters",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Special Characters & Symbols."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Testing symbols: @#$%^&*()[]{}|\\;':\",./<>?`~"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Unicode test: 🌟 ★ ✓ ✗ → ← ↑ ↓ • § ¶ © ® ™"
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Mention with symbols: "
+              },
+              {
+                "color": "rgb(255, 165, 0)",
+                "type": "mention",
+                "title": "Symbol Variable",
+                "children": [
+                  {
+                    "text": "$1,000.00 (USD)"
+                  }
+                ],
+                "id": "Symbol Var",
+                "value": "$1,000.00 (USD)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "clause",
+        "title": "Long Content Test",
+        "children": [
+          {
+            "type": "h4",
+            "children": [
+              {
+                "bold": true,
+                "underline": true,
+                "text": "Very Long Text Content."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "This is an extremely long paragraph designed to test how the application handles lengthy text content that might wrap across multiple lines and potentially cause layout issues or performance problems when rendering in the browser environment. It contains many words and should demonstrate whether the text wrapping, line height, and overall paragraph formatting work correctly even with substantial amounts of content that exceed typical screen widths and require multiple lines to display properly."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "children": [
+              {
+                "text": "Long mention test: "
+              },
+              {
+                "color": "rgb(128, 0, 128)",
+                "type": "mention",
+                "title": "Very Long Variable Name That Tests Wrapping",
+                "children": [
+                  {
+                    "text": "This is a very long variable value that should test how mentions handle extended content and whether they maintain proper formatting and background colors even when the text content is quite lengthy and potentially spans multiple lines"
+                  }
+                ],
+                "id": "Long Var",
+                "value": "This is a very long variable value that should test how mentions handle extended content and whether they maintain proper formatting and background colors even when the text content is quite lengthy and potentially spans multiple lines"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
