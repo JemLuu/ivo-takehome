@@ -69,9 +69,9 @@ export const ClauseRenderer: React.FC<ClauseRendererProps> = ({ node, inheritedM
   if (isNested && isDefinitionSubClause && subItemIndex !== undefined) {
     const letter = String.fromCharCode(97 + subItemIndex); // a, b, c, etc.
     return (
-      <div style={{ marginLeft: '45px', marginBottom: '4px', marginTop: '4px' }}>
+      <div style={{ marginLeft: '20px', marginBottom: '4px', marginTop: '4px' }}>
         <div style={{ display: 'flex', alignItems: 'flex-start' }}>
-          <span style={{ marginRight: '12px', minWidth: '30px' }}>({letter})</span>
+          <span style={{ marginRight: '0px', minWidth: '30px' }}>({letter})</span>
           <div style={{ flex: 1 }}>
             {node.children && node.children.map((child, index) => (
               <NodeRenderer key={index} node={child} inheritedMarks={marks} parentType="clause" isNested={true} />
